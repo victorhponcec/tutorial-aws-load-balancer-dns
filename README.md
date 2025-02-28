@@ -2,6 +2,8 @@
 
 This lab will focus on creating a highly available infrastructure by using an Application Load Balancer (ALB) and configuring two target groups to distribute traffic evenly between two EC2 instances. The architecture will include a single ALB, two EC2 instances (with SSH access) in different Availability Zones (AZ), and the association of our ALB with a Route 53 domain
 
+![Overview Diagram](Diagrams_Tutorials-VPC-LB.drawio.png)
+
 # Set up the Providers
 
 We are going to make use of three providers, AWS, Local and TLS for the generation of our keys. 
